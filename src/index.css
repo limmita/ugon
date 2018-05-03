@@ -1,5 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
 }
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 10px;  /*Отступ слева в браузере IE и Opera */
+    padding-left: 10px; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
